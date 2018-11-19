@@ -6,8 +6,8 @@
 
 ---
 
-# Visualizing Serverless Architectures
-## What makes a **healthy** serverless application?
+### Visualizing Serverless Architectures
+#### What makes a **healthy** serverless application?
 
 ---
 
@@ -154,18 +154,17 @@ Because at the end of the day, developers love abstractions (don't @ me on this 
 
 ---
 
-# There are metrics out there 
-# That pertain to your app 
-# specifically
-
----
-
 # Custom Metrics
 
 * One of the key benefits of observability is the ability to define your own custom metrics that fit your particular goals
 * The amount of time a certain task takes, the user data that impacts your function, or anything you can think of!
 * The downside: this does require instrumentation of your code
 	* (But there are tools out there to help!)
+
+---
+
+# But what about
+# [fit] **Observability**?
 
 ---
 
@@ -181,25 +180,24 @@ What we're looking for is the ability to see what was happening in our applicati
 
 ---
 
+# Another key element: Time
+
+* Data is most useful when aggregated and visualized over time
+* Staring at the data during an incident only gives you the knowledge to fix it now, not necessarily prevent it from happening again
+
+---
+
 # [fit] Observability = **Context**
 
 ---
 
-# Demo Time: Observing an Azure Function
+## **Demo Time**: 
 
-## nodebotani.st/set?color=[your css color]
+### [Attempt at] Observing an Azure Function
 
----
-
-# The other key element: Time
-
-* Data is most useful when aggregated and visualized over time
-* Staring at the data during an incident only gives you the knowledge to fix it now, not necessarily prevent it from happening again
-* Time equals context, and context creates lasting solutions!
+### nodebotani.st/set?color=[your css color]
 
 ---
-
-# Speaking of time...
 
 The world of serverless observability and operations is trying to keep pace with an explosion of growth in serverless use. But the tooling is working its way through, and the future is bright!
 
