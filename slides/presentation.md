@@ -15,10 +15,40 @@
 
 * @nodebotanist
 * Developer Relations Specialist
-* Hardware maker/student/author
-* I <3 Serverless and IoT!
+* Maker
+* EE Student
 
-![right](~/Dropbox/img/profile.jpg)
+![right](~/Dropbox/img/alladinsane.jpg)
+
+---
+
+# [fit] Robots/Nodebots Author
+
+![](~/Dropbox/img/book1.jpeg)
+![](~/Dropbox/img/book2.jpg)
+![](~/Dropbox/img/book3.png)
+
+---
+
+## Catparent
+
+![](~/Dropbox/img/babies.jpg)
+
+---
+
+# [fit] There are still a lot of
+# [fit] misconceptions
+# [fit] about serverless
+
+---
+
+"We just spent 10 years convincing people that JS belongs on servers, and now they want to take servers away!"
+
+- Some Rando
+
+---
+
+![inline](~/Dropbox/GIFS/welp.gif)
 
 ---
 
@@ -27,6 +57,10 @@
 * Firmly in the reactionary stage in most cases
 	* "Oh no, it's down, why is it down?!"
 * We keep some metrics, but there's so many unknowns!
+
+---
+
+## Development and Ops tooling from **most** providers is still kind of a nightmare
 
 ---
 
@@ -39,7 +73,9 @@
 ---
 
 # [fit] But how do we get from 
-# [fit] reactionary to preventative?
+# [fit] **reactionary**
+# to 
+# [fit] **preventative**?
 
 ---
 
@@ -52,15 +88,17 @@
 ---
 
 # [fit] However,
-# [fit] Metrics are still important!
+# [fit] **Metrics**
+# are still 
+# [fit] **important**!
 
 ---
 
 # Metrics are still important
 
-* We need some landmarks from which to gauge where we're going and where we've been
+* We need some landmarks to gauge where we're going and where we've been
 * It's hard to ingest large amounts of observed data without categorization
-* Metrics, when planned well, are easy to turn into easily-digestable, usable visualizations
+* Metrics, when planned well, are easy to turn into digestable, usable visualizations
 
 ---
 
@@ -113,6 +151,14 @@
 	* (But there are tools out there to help!)
 
 —--
+
+# Creating custom metrics
+
+* Logs
+* Database calls
+* Some third-party tooling
+
+---
 
 # Demo Time: Observing an Azure Function
 
