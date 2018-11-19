@@ -14,6 +14,7 @@
 # About Me
 
 * @nodebotanist
+* Mx. Kas Perch (They/Their/Them)
 * Developer Relations Specialist
 * Maker
 * EE Student
@@ -52,7 +53,7 @@
 
 ---
 
-# The state of serverless ops
+# The state of Serverless ops: Reactionary
 
 * Firmly in the reactionary stage in most cases
 	* "Oh no, it's down, why is it down?!"
@@ -60,11 +61,27 @@
 
 ---
 
-## Development and Ops tooling from **most** providers is still kind of a nightmare
+## Development and Ops tooling from **most** providers is still kind of a nightmare.
+
+## Third-party tools are starting to fill some gaps, but we're still a bit behind.
 
 ---
 
-# The ideal: Preventative Operations
+# Why are observability and monitoring so hard in Serverless?
+
+![](~/Dropbox/img/jawbreaker.jpg)
+
+Because it is an abstraction of runtime environment-- your provider controls your access to any information about your runtime environment, from the version of your language to the OS.
+
+---
+
+Because at the end of the day, developers love abstractions (don't @ me on this one).
+
+![inline](~/Dropbox/GIFS/smoke-bomb.gif)
+
+---
+
+# The ideal: Preventative
 
 * Being able to observe your serverless application from the 10,000m view down to each invocation
 * Being able to see metrics over time, to see problems before they arise
@@ -125,7 +142,7 @@
 
 # Error Rate
 
-* You don't need to sound the alarms (necessairily) if 100 invocations cause an error...over 1,000,000 invocations total (.01% error rate)
+* You don't need to sound the alarms (necessarily) if 100 invocations cause an error...in over 1,000,000 invocations total (.01% error rate)
 * The rate of errors to invocations is a key piece of perspective when evaluating the health of a serverless application!
 
 ---
@@ -150,17 +167,27 @@
 * The downside: this does require instrumentation of your code
 	* (But there are tools out there to help!)
 
-—--
+---
 
-# Creating custom metrics
+# Moving into observability
 
-* Logs
-* Database calls
-* Some third-party tooling
+The key difference between monitoring and observability is monitoring is watching the data points you know about, observability means collecting as much relevant data as possible to see the bigger picture
+
+---
+
+# Observability in Serverless Applications
+
+What we're looking for is the ability to see what was happening in our application is a given point in time, so we can pull data points that may later become metrics from it.
+
+---
+
+# [fit] Observability = **Context**
 
 ---
 
 # Demo Time: Observing an Azure Function
+
+## nodebotani.st/set?color=[your css color]
 
 ---
 
@@ -182,7 +209,7 @@ The world of serverless observability and operations is trying to keep pace with
 
 * Kassandra Perch
 * @nodebotanist
-* Developer Relations Specilist
+* Developer Relations Specialist
 
 ![inline](~/Dropbox/GIFs/carl-sagan-youre-awesome.gif)
 
